@@ -1,0 +1,9 @@
+pandas
+numpy
+requests
+jinja2
+pdfkit
+weasyprint
+fastapi
+uvicon
+openai
