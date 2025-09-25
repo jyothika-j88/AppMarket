@@ -1,0 +1,354 @@
+{
+  "insights": [
+    {
+      "insight_id": "APP_SUCCESS_CORR_001",
+      "timestamp": "2025-09-25T09:04:46Z",
+      "category": "success_factors",
+      "subcategory": "installs",
+      "app_category": null,
+      "platform": null,
+      "insight_text": "Feature 'installs' shows correlation with the success metric (pearson r=0.982, p=0, n=9659).",
+      "supporting_data": {
+        "sample_size": 9659,
+        "correlation_strength": 0.982,
+        "statistical_significance": 0.0
+      },
+      "confidence_score": 0.9816041956510768,
+      "business_impact": "high",
+      "actionability": "short-term",
+      "recommendations": [
+        "Focus on user acquisition channels and ASO to increase installs (optimise store listing, keywords, creatives)."
+      ],
+      "tags": [
+        "correlation",
+        "installs"
+      ],
+      "market_context": {
+        "competition_level": "unknown",
+        "market_growth": "unknown",
+        "opportunity_score": null
+      }
+    },
+    {
+      "insight_id": "APP_SUCCESS_CORR_002",
+      "timestamp": "2025-09-25T09:04:46Z",
+      "category": "success_factors",
+      "subcategory": "reviews",
+      "app_category": null,
+      "platform": null,
+      "insight_text": "Feature 'reviews' shows correlation with the success metric (pearson r=0.646, p=0, n=9660).",
+      "supporting_data": {
+        "sample_size": 9660,
+        "correlation_strength": 0.646,
+        "statistical_significance": 0.0
+      },
+      "confidence_score": 0.6458633258323665,
+      "business_impact": "medium",
+      "actionability": "short-term",
+      "recommendations": [
+        "Encourage reviews from satisfied users (in-app prompts after positive events)."
+      ],
+      "tags": [
+        "correlation",
+        "reviews"
+      ],
+      "market_context": {
+        "competition_level": "unknown",
+        "market_growth": "unknown",
+        "opportunity_score": null
+      }
+    },
+    {
+      "insight_id": "APP_SUCCESS_CORR_003",
+      "timestamp": "2025-09-25T09:04:46Z",
+      "category": "success_factors",
+      "subcategory": "log_reviews",
+      "app_category": null,
+      "platform": null,
+      "insight_text": "Feature 'log_reviews' shows correlation with the success metric (pearson r=0.370, p=5.04e-311, n=9660).",
+      "supporting_data": {
+        "sample_size": 9660,
+        "correlation_strength": 0.37,
+        "statistical_significance": 5.039853748812e-311
+      },
+      "confidence_score": 0.36993202774516226,
+      "business_impact": "medium",
+      "actionability": "short-term",
+      "recommendations": [
+        "Encourage reviews from satisfied users (in-app prompts after positive events)."
+      ],
+      "tags": [
+        "correlation",
+        "log_reviews"
+      ],
+      "market_context": {
+        "competition_level": "unknown",
+        "market_growth": "unknown",
+        "opportunity_score": null
+      }
+    },
+    {
+      "insight_id": "APP_SUCCESS_CORR_004",
+      "timestamp": "2025-09-25T09:04:46Z",
+      "category": "success_factors",
+      "subcategory": "log_installs",
+      "app_category": null,
+      "platform": null,
+      "insight_text": "Feature 'log_installs' shows correlation with the success metric (pearson r=0.366, p=1.05e-304, n=9660).",
+      "supporting_data": {
+        "sample_size": 9660,
+        "correlation_strength": 0.366,
+        "statistical_significance": 1.0475000791308597e-304
+      },
+      "confidence_score": 0.3663977420346357,
+      "business_impact": "high",
+      "actionability": "short-term",
+      "recommendations": [
+        "Focus on user acquisition channels and ASO to increase installs (optimise store listing, keywords, creatives)."
+      ],
+      "tags": [
+        "correlation",
+        "log_installs"
+      ],
+      "market_context": {
+        "competition_level": "unknown",
+        "market_growth": "unknown",
+        "opportunity_score": null
+      }
+    },
+    {
+      "insight_id": "APP_SUCCESS_CORR_005",
+      "timestamp": "2025-09-25T09:04:46Z",
+      "category": "success_factors",
+      "subcategory": "rating",
+      "app_category": null,
+      "platform": null,
+      "insight_text": "Feature 'rating' shows correlation with the success metric (pearson r=0.102, p=1.77e-20, n=8197).",
+      "supporting_data": {
+        "sample_size": 8197,
+        "correlation_strength": 0.102,
+        "statistical_significance": 1.76685523926495e-20
+      },
+      "confidence_score": 0.10219744438771607,
+      "business_impact": "high",
+      "actionability": "immediate",
+      "recommendations": [
+        "Prioritize product quality to raise rating (target 4.2+). Implement better onboarding and bug triage to increase ratings."
+      ],
+      "tags": [
+        "correlation",
+        "rating"
+      ],
+      "market_context": {
+        "competition_level": "unknown",
+        "market_growth": "unknown",
+        "opportunity_score": null
+      }
+    },
+    {
+      "insight_id": "APP_SUCCESS_CORR_006",
+      "timestamp": "2025-09-25T09:04:46Z",
+      "category": "success_factors",
+      "subcategory": "price",
+      "app_category": null,
+      "platform": null,
+      "insight_text": "Feature 'price' shows correlation with the success metric (pearson r=-0.012, p=0.243, n=9659).",
+      "supporting_data": {
+        "sample_size": 9659,
+        "correlation_strength": -0.012,
+        "statistical_significance": 0.2434943185176755
+      },
+      "confidence_score": 0.05,
+      "business_impact": "medium",
+      "actionability": "short-term",
+      "recommendations": [
+        "Experiment with price buckets indicated in pricing analysis (A/B test $2.99\u2013$4.99 for paid apps)."
+      ],
+      "tags": [
+        "correlation",
+        "price"
+      ],
+      "market_context": {
+        "competition_level": "unknown",
+        "market_growth": "unknown",
+        "opportunity_score": null
+      }
+    },
+    {
+      "insight_id": "PRICING_001",
+      "timestamp": "2025-09-25T09:04:46Z",
+      "category": "pricing_strategy",
+      "subcategory": "category_pricing",
+      "app_category": "ART_AND_DESIGN",
+      "platform": null,
+      "insight_text": "In category 'ART_AND_DESIGN', the price bucket free shows the highest revenue proxy (avg revenue proxy=0.00) with sample size 58.",
+      "supporting_data": {
+        "sample_size": 61,
+        "best_bucket_count": 58,
+        "statistical_pvalue": null
+      },
+      "confidence_score": 0.45,
+      "business_impact": "medium",
+      "actionability": "short-term",
+      "recommendations": [
+        "Run a price A/B test in ART_AND_DESIGN focusing on free to validate revenue uplift."
+      ],
+      "tags": [
+        "pricing",
+        "revenue"
+      ],
+      "market_context": {
+        "competition_level": "medium",
+        "market_growth": "unknown",
+        "opportunity_score": null
+      }
+    },
+    {
+      "insight_id": "PRICING_002",
+      "timestamp": "2025-09-25T09:04:46Z",
+      "category": "pricing_strategy",
+      "subcategory": "category_pricing",
+      "app_category": "AUTO_AND_VEHICLES",
+      "platform": null,
+      "insight_text": "In category 'AUTO_AND_VEHICLES', the price bucket free shows the highest revenue proxy (avg revenue proxy=0.00) with sample size 82.",
+      "supporting_data": {
+        "sample_size": 85,
+        "best_bucket_count": 82,
+        "statistical_pvalue": null
+      },
+      "confidence_score": 0.45,
+      "business_impact": "medium",
+      "actionability": "short-term",
+      "recommendations": [
+        "Run a price A/B test in AUTO_AND_VEHICLES focusing on free to validate revenue uplift."
+      ],
+      "tags": [
+        "pricing",
+        "revenue"
+      ],
+      "market_context": {
+        "competition_level": "medium",
+        "market_growth": "unknown",
+        "opportunity_score": null
+      }
+    },
+    {
+      "insight_id": "PRICING_003",
+      "timestamp": "2025-09-25T09:04:46Z",
+      "category": "pricing_strategy",
+      "subcategory": "category_pricing",
+      "app_category": "BEAUTY",
+      "platform": null,
+      "insight_text": "In category 'BEAUTY', the price bucket free shows the highest revenue proxy (avg revenue proxy=0.00) with sample size 53.",
+      "supporting_data": {
+        "sample_size": 53,
+        "best_bucket_count": 53,
+        "statistical_pvalue": null
+      },
+      "confidence_score": 0.45,
+      "business_impact": "medium",
+      "actionability": "short-term",
+      "recommendations": [
+        "Run a price A/B test in BEAUTY focusing on free to validate revenue uplift."
+      ],
+      "tags": [
+        "pricing",
+        "revenue"
+      ],
+      "market_context": {
+        "competition_level": "medium",
+        "market_growth": "unknown",
+        "opportunity_score": null
+      }
+    },
+    {
+      "insight_id": "PRICING_004",
+      "timestamp": "2025-09-25T09:04:46Z",
+      "category": "pricing_strategy",
+      "subcategory": "category_pricing",
+      "app_category": "BOOKS_AND_REFERENCE",
+      "platform": null,
+      "insight_text": "In category 'BOOKS_AND_REFERENCE', the price bucket $0.99-2.99 shows the highest revenue proxy (avg revenue proxy=14283.02) with sample size 5.",
+      "supporting_data": {
+        "sample_size": 222,
+        "best_bucket_count": 5,
+        "statistical_pvalue": 4.083064281086271e-40
+      },
+      "confidence_score": 0.6,
+      "business_impact": "medium",
+      "actionability": "short-term",
+      "recommendations": [
+        "Run a price A/B test in BOOKS_AND_REFERENCE focusing on $0.99-2.99 to validate revenue uplift."
+      ],
+      "tags": [
+        "pricing",
+        "revenue"
+      ],
+      "market_context": {
+        "competition_level": "medium",
+        "market_growth": "unknown",
+        "opportunity_score": null
+      }
+    },
+    {
+      "insight_id": "OPPORTUNITY_001",
+      "timestamp": "2025-09-25T09:04:46Z",
+      "category": "market_opportunity",
+      "subcategory": "EDUCATION",
+      "app_category": "EDUCATION",
+      "platform": null,
+      "insight_text": "Category 'EDUCATION' has a promising opportunity score 10.00/10 (median_installs=1000000, median_rating=4.40, apps=102).",
+      "supporting_data": {
+        "sample_size": 102,
+        "median_installs": 1000000.0,
+        "median_rating": 4.4
+      },
+      "confidence_score": 0.8999999995867999,
+      "business_impact": "high",
+      "actionability": "short-term",
+      "recommendations": [
+        "Explore EDUCATION with a focused MVP; target niche subfeatures and aim for 4.2+ rating."
+      ],
+      "tags": [
+        "opportunity",
+        "category"
+      ],
+      "market_context": {
+        "competition_level": "high",
+        "market_growth": "unknown",
+        "opportunity_score": 9.999999986226664
+      }
+    },
+    {
+      "insight_id": "OPPORTUNITY_002",
+      "timestamp": "2025-09-25T09:04:46Z",
+      "category": "market_opportunity",
+      "subcategory": "WEATHER",
+      "app_category": "WEATHER",
+      "platform": null,
+      "insight_text": "Category 'WEATHER' has a promising opportunity score 10.00/10 (median_installs=1000000, median_rating=4.30, apps=79).",
+      "supporting_data": {
+        "sample_size": 79,
+        "median_installs": 1000000.0,
+        "median_rating": 4.3
+      },
+      "confidence_score": 0.8999442453384423,
+      "business_impact": "high",
+      "actionability": "short-term",
+      "recommendations": [
+        "Explore WEATHER with a focused MVP; target niche subfeatures and aim for 4.2+ rating."
+      ],
+      "tags": [
+        "opportunity",
+        "category"
+      ],
+      "market_context": {
+        "competition_level": "low",
+        "market_growth": "unknown",
+        "opportunity_score": 9.998141511281412
+      }
+    }
+  ],
+  "generated_on": "2025-09-25T09:04:46Z",
+  "rows_analyzed": 9660
+}
